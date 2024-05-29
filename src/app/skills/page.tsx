@@ -1,4 +1,7 @@
+import { CarouselIconsTechs } from "@/components/CarouselIconsTechs";
 import { Salutation } from "@/components/Salutation";
+import { IconsTechs } from "@/data/iconsTechs";
+import Image from "next/image";
 
 
 
@@ -10,20 +13,10 @@ export const Page = () => {
             <section className="container flex flex-col items-center justify-center">
                 <Salutation emoje="🧑‍💻" salutation="Skills" />
 
-                <h1 className="font-semibold text-2xl">Tecnologias e Habilidades</h1>
+                <h1 className="uppercase font-semibold text-primary text-2xl mt-5 text-center">Tecnologias e Habilidades</h1>
 
-                <div>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                <CarouselIconsTechs />
 
-                    </ul>
-                </div>
             </section>
         </main>
     )

@@ -16,14 +16,14 @@ const Page = () => {
                     <Image 
                     src={ImageAboutMe}
                     alt="Image About Me"
-                    className="rounded-full  w-40 h-40 md:w-80 md:h-80 xl:w-96 xl:h-96 bg-primary/20 dark:bg-primary/20"
+                    className="rounded-full  w-40 h-40 md:w-60  md:h-60 xl:w-96 xl:h-96 bg-primary/20 dark:bg-primary/20"
                     quality={100}
                     />
                 </div>
                 <div className="mt-10 flex flex-col items-center">
                     <Salutation salutation="Sobre mim" emoje="🤓" />
                     <h1 className="mt-5 font-semibold text-primary text-xl text-center md:text-2xl lg:text-3xl">Ranielly Wesley Pimentel Santos da Silva</h1>
-                    <div className="mt-5 px-2">
+                    <div className="mt-0 md:mt-5 px-2">
                         <AboutMe emoje="👏" description="Hello world, pode me chamar apenas de Weley. Prazer!" />
                         <AboutMe emoje="🧑‍💻" description="+2 anos estudando aplicações com JavaScript, ReactJS, TypeScript e outras tecnologias." />
                         <AboutMe emoje="🎓" description="Graduado em Análise e Desenvolvimento de Sistemas pela UNCISAL, Universidade de Ciência e Saúde de Alagoas." />

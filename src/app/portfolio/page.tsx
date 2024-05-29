@@ -18,7 +18,7 @@ const Page = () => {
             </div>
 
             <div className="mt-5">
-                <h1 className="uppercase font-semibold text-primary text-xl">Projetos</h1>
+                <h1 className="uppercase font-semibold text-primary text-2xl">Projetos</h1>
             </div>
 
             <CarouselItems />

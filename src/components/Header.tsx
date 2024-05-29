@@ -26,14 +26,14 @@ export const Header = () => {
                     </div>
                 </Link>
 
-                <nav className=" items-center hidden md:block">
+                <nav className="  items-center hidden  md:flex">
 
                     <Link href='/'><Button variant='link' className=" text-sm uppercase">Home</Button></Link>
                     <Link href='/sobre'><Button variant='link' className=" text-sm uppercase">Sobre mim</Button></Link>
                     <Link href='/portfolio'><Button variant='link' className=" text-sm uppercase">Portfólio</Button></Link>
                     <Link href='/skills'><Button variant='link' className=" text-sm uppercase">Skills</Button></Link>
                     <Link href='/contato'><Button variant='link' className=" text-sm uppercase">Contato</Button></Link>
-                    <ThemeToggle />
+                    <ThemeToggle/>
                 </nav>
 
                 <MenuMobile />
