@@ -5,4 +5,5 @@ export type projectsType = {
     description: string;
     technologies: string[];
     imageProject: string;
+    link?: string;
 }

@@ -13,6 +13,7 @@ import Fade from 'embla-carousel-fade';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import Image from "next/image";
 import { TechnologiesItems } from "./TechnologiesItems";
+import Link from "next/link";
 
 
 export const CarouselItems = () => {
@@ -30,26 +31,30 @@ export const CarouselItems = () => {
             <CarouselContent className="">
                 {Projects.map((item => (
                     <>
-                        <CarouselItem key={item.id} className="lg:basis-1/2 xl:basis-1/3 cursor-pointer">
-                            <Card className=" border-primary hover:bg-primary/10 transition-all duration-500 text-primary h-full flex flex-col justify-start items-center">
-                                <CardHeader>
-                                    <CardTitle>{item.title}</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <CardDescription>{item.description}</CardDescription>
-                                    <Image alt="Imagem Portfólio" src={`/${item.imageProject}`}
-                                        width={500} height={500} className="rounded-md mt-5 w-96 h-40" quality={100}
-                                    />
-                                    <CardFooter className="p-0 mt-5 flex gap-2 items-center flex-wrap">
-                                        {item.technologies.map((technology => (
-                                            <span className="bg-primary text-white rounded-md px-2 py-1 font-semibold">{technology}</span>
 
-                                        )))}
-                                    </CardFooter>
-                                </CardContent>
-                            </Card>
+                        <CarouselItem key={item.id} className="lg:basis-1/2 xl:basis-1/3 cursor-pointer">
+                            <Link href={`${item.link}`} target="_blank">
+                                <Card className=" border-primary hover:bg-primary/10 transition-all duration-500 text-primary h-full flex flex-col justify-start items-center">
+                                    <CardHeader>
+                                        <CardTitle>{item.title}</CardTitle>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <CardDescription>{item.description}</CardDescription>
+                                        <Image alt="Imagem Portfólio" src={`/${item.imageProject}`}
+                                            width={500} height={500} className="rounded-md mt-5 w-96 h-40" quality={100}
+                                        />
+                                        <CardFooter className="p-0 mt-5 flex gap-2 items-center flex-wrap">
+                                            {item.technologies.map((technology => (
+                                                <span className="bg-primary text-white rounded-md px-2 py-1 font-semibold">{technology}</span>
+
+                                            )))}
+                                        </CardFooter>
+                                    </CardContent>
+                                </Card>
+                            </Link>
                         </CarouselItem>
-                        
+
+
                     </>
                 )))}
             </CarouselContent>

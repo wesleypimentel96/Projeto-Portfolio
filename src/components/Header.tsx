@@ -6,9 +6,6 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { MenuMobile } from "@/components/MenuMobile";
 
-import { motion } from "framer-motion";
-
-
 export const Header = () => {
 
     return (
