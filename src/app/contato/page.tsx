@@ -1,7 +1,7 @@
 'use client';
 
 import { Card, CardHeader, CardTitle } from '@/components/ui/card';
-import { isValid, z } from 'zod';
+import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm, SubmitHandler } from 'react-hook-form';
 
@@ -55,6 +55,7 @@ const Page = () => {
       // Configure os params como achar melhor
       const params = {
         name: `${data.name} ${data.surname}`,
+        emal: data.email,
         message: data.project,
       };
 

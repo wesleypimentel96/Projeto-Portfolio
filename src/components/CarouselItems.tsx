@@ -39,7 +39,7 @@ export const CarouselItems = () => {
                                         <CardTitle>{item.title}</CardTitle>
                                     </CardHeader>
                                     <CardContent>
-                                        <CardDescription>{item.description}</CardDescription>
+                                        <CardDescription className=" text-left">{item.description}</CardDescription>
                                         <Image alt="Imagem Portfólio" src={`/${item.imageProject}`}
                                             width={500} height={500} className="rounded-md mt-5 w-96 h-40" quality={100}
                                         />

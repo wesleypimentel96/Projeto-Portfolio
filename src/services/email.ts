@@ -1,7 +1,7 @@
 import { formSubmitApi } from '@/http';
 
 // Definina o email que vai receber as mensagens
-const DEFAULT_EMAIL = 'SEU_EMAIL';
+const DEFAULT_EMAIL = 'wesley-pimentel@outlook.com';
 
 export const emailService = {
   sendEmail: async (
