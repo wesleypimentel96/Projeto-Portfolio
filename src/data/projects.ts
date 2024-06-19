@@ -25,7 +25,7 @@ export const Projects: projectsType[] = [
         description: 'Loja de delivery, com carrinho de compras e integração com whatsapp',
         technologies: ['Next.JS', 'CSS3', 'HTML5', 'React.JS', 'TypeScript', 'Shadcn-UI'],
         imageProject: 'projeto03.jpg',
-        link: ''
+        link: 'https://shadcn-delivery-odnz8xrjy-wesley-pimentels-projects.vercel.app/'
     },
     {
         id: 4,

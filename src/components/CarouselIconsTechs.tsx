@@ -1,15 +1,12 @@
 'use client'
 
-import { IconsTechs } from "@/data/iconsTechs";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 import Image from "next/image";
 import Autoplay from "embla-carousel-autoplay";
-import { Card } from "./ui/card";
 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { TbBrandTypescript } from "react-icons/tb";;
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -19,9 +16,7 @@ import { SiZod } from "react-icons/si";
 import { SiShadcnui } from "react-icons/si";
 
 
-
 export const CarouselIconsTechs = () => {
-
 
     return (
         <Carousel className="mt-10 max-w-80 md:max-w-lg xl:max-w-4xl"
@@ -30,18 +25,10 @@ export const CarouselIconsTechs = () => {
                 Autoplay({
                     delay: 4000,
                 }),
-                // Fade(),
             ]}
 
         >
             <CarouselContent className="">
-                {/* {IconsTechs.map((item => (
-                    <CarouselItem className=" flex items-center justify-center md:basis-1/2 lg:basis-1/4 p-0 dark:rounded-full">
-                        <Card className=" dark:bg-primary rounded-full p-8">
-                            <Image alt={`${item.name}`} src={`/${item.iconTech}`} width={200} height={200} className=" " />
-                        </Card>
-                    </CarouselItem>
-                )))} */}
 
                 <CarouselItem className=" flex justify-center md:basis-1/3 ">
                     <FaHtml5 className=" text-8xl bg-primary rounded-full w-52 h-52 p-3 md:w-32 md:h-32 xl:w-52 xl:h-52 text-white" />
