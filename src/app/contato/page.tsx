@@ -71,7 +71,7 @@ const Page = () => {
 
   return (
     <main className="flex flex-col items-center justify-center h-[88vh]  container mx-auto">
-      <section className="  w-full flex  items-center md:justify-center lg:gap-16 xl:justify-between xl:max-w-5xl">
+      <section className="  w-full flex justify-center items-center md:justify-center lg:gap-16 xl:justify-between xl:max-w-5xl">
         <div className=" max-w-96 hidden lg:flex lg:flex-col">
           <p className=" text-[#FF914D] font-semibold text-5xl">
             Vamos conversar!
@@ -103,8 +103,8 @@ const Page = () => {
         </div>
 
         <Card className=" border-primary/40 border-2 shadow-xl p-4 md:p-5">
-          <CardHeader className=" p-0 hidden md:flex">
-            <CardTitle className=" font-semibold text-2xl text-center  md:text-3xl text-primary">
+          <CardHeader className=" p-0  md:flex">
+            <CardTitle className="font-semibold text-2xl text-center py-2 md:text-3xl text-primary">
               Nos envie uma menssagem 🚀
             </CardTitle>
           </CardHeader>
@@ -122,11 +122,10 @@ const Page = () => {
                   <FormItem>
                     <FormLabel
                       className={`
-                                            ${
-                                              formState.errors.name
-                                                ? ' text-red-500 dark:text-red-400'
-                                                : 'text-primary/80'
-                                            }
+                                            ${formState.errors.name
+                          ? ' text-red-500 dark:text-red-400'
+                          : 'text-primary/80'
+                        }
                                         `}
                     >
                       Nome<span>*</span>
@@ -138,16 +137,14 @@ const Page = () => {
                         onChange={field.onChange}
                         placeholder="Digite seu nome"
                         className={`text-muted-foreground shadow-lg ring-1 ring-primary/80
-                                                ${
-                                                  formState.errors.name
-                                                    ? ' bg-red-200'
-                                                    : 'bg-primary/20'
-                                                }
-                                                ${
-                                                  formState.errors.name
-                                                    ? ' ring-red-500/80 dark:ring-red-500/60'
-                                                    : ' ring-primary/80'
-                                                }
+                                                ${formState.errors.name
+                            ? ' bg-red-200'
+                            : 'bg-primary/20'
+                          }
+                                                ${formState.errors.name
+                            ? ' ring-red-500/80 dark:ring-red-500/60'
+                            : ' ring-primary/80'
+                          }
                                             `}
                       />
                     </FormControl>
@@ -166,11 +163,10 @@ const Page = () => {
                   <FormItem>
                     <FormLabel
                       className={`
-                                            ${
-                                              formState.errors.surname
-                                                ? ' text-red-500 dark:text-red-400'
-                                                : 'text-primary/80'
-                                            }
+                                            ${formState.errors.surname
+                          ? ' text-red-500 dark:text-red-400'
+                          : 'text-primary/80'
+                        }
                                         `}
                     >
                       Sobrenome<span>*</span>
@@ -182,16 +178,14 @@ const Page = () => {
                         onChange={field.onChange}
                         placeholder="Digite seu sobrenome"
                         className={`text-muted-foreground shadow-lg ring-1 ring-primary/80
-                                            ${
-                                              formState.errors.surname
-                                                ? ' bg-red-200'
-                                                : 'bg-primary/20'
-                                            }
-                                            ${
-                                              formState.errors.surname
-                                                ? ' ring-red-500/80 dark:ring-red-500/60'
-                                                : ' ring-primary/80'
-                                            }
+                                            ${formState.errors.surname
+                            ? ' bg-red-200'
+                            : 'bg-primary/20'
+                          }
+                                            ${formState.errors.surname
+                            ? ' ring-red-500/80 dark:ring-red-500/60'
+                            : ' ring-primary/80'
+                          }
                                         `}
                       />
                     </FormControl>
@@ -210,11 +204,10 @@ const Page = () => {
                   <FormItem>
                     <FormLabel
                       className={`
-                                            ${
-                                              formState.errors.email
-                                                ? ' text-red-500 dark:text-red-400'
-                                                : 'text-primary/80'
-                                            }
+                                            ${formState.errors.email
+                          ? ' text-red-500 dark:text-red-400'
+                          : 'text-primary/80'
+                        }
                                         `}
                     >
                       E-mail<span>*</span>
@@ -226,16 +219,14 @@ const Page = () => {
                         onChange={field.onChange}
                         placeholder="Digite seu e-mail"
                         className={`text-muted-foreground shadow-lg ring-1 ring-primary/80
-                                            ${
-                                              formState.errors.email
-                                                ? ' bg-red-200'
-                                                : 'bg-primary/20'
-                                            }
-                                            ${
-                                              formState.errors.email
-                                                ? ' ring-red-500/80 dark:ring-red-500/60'
-                                                : ' ring-primary/80'
-                                            }
+                                            ${formState.errors.email
+                            ? ' bg-red-200'
+                            : 'bg-primary/20'
+                          }
+                                            ${formState.errors.email
+                            ? ' ring-red-500/80 dark:ring-red-500/60'
+                            : ' ring-primary/80'
+                          }
                                         `}
                       />
                     </FormControl>
@@ -253,11 +244,10 @@ const Page = () => {
                   <FormItem>
                     <FormLabel
                       className={`
-                                            ${
-                                              formState.errors.subject
-                                                ? ' text-red-500 dark:text-red-400'
-                                                : 'text-primary/80'
-                                            }
+                                            ${formState.errors.subject
+                          ? ' text-red-500 dark:text-red-400'
+                          : 'text-primary/80'
+                        }
                                         `}
                     >
                       Assunto
@@ -284,11 +274,10 @@ const Page = () => {
                   <FormItem>
                     <FormLabel
                       className={`
-                                            ${
-                                              formState.errors.project
-                                                ? ' text-red-500 dark:text-red-400'
-                                                : 'text-primary/80'
-                                            }
+                                            ${formState.errors.project
+                          ? ' text-red-500 dark:text-red-400'
+                          : 'text-primary/80'
+                        }
                                         `}
                     >
                       Conte-nos mais sobre seu projeto*
@@ -300,16 +289,14 @@ const Page = () => {
                         maxLength={200}
                         placeholder="Fale um pouco sobre seu projeto"
                         className={` text-muted-foreground resize-none shadow-lg ring-1 ring-primary/80
-                                            ${
-                                              formState.errors.project
-                                                ? ' bg-red-200'
-                                                : 'bg-primary/20'
-                                            }
-                                            ${
-                                              formState.errors.project
-                                                ? ' ring-red-500/80 dark:ring-red-500/60'
-                                                : ' ring-primary/80'
-                                            }
+                                            ${formState.errors.project
+                            ? ' bg-red-200'
+                            : 'bg-primary/20'
+                          }
+                                            ${formState.errors.project
+                            ? ' ring-red-500/80 dark:ring-red-500/60'
+                            : ' ring-primary/80'
+                          }
                                         `}
                       />
                     </FormControl>

@@ -13,11 +13,11 @@ const Page = () => {
         <main className=" h-[88vh] ">
             <section className=" pt-10 md:pt-8 flex flex-col items-center xl:flex-row  xl:justify-center xl:gap-40 xl:items-center h-full ">
                 <div>
-                    <Image 
-                    src={ImageAboutMe}
-                    alt="Image About Me"
-                    className="rounded-full  w-40 h-40 md:w-60  md:h-60 xl:w-96 xl:h-96 bg-primary/20 dark:bg-primary/20"
-                    quality={100}
+                    <Image
+                        src={ImageAboutMe}
+                        alt="Image About Me"
+                        className="rounded-full  w-40 h-40 md:w-60  md:h-60 xl:w-96 xl:h-96 bg-primary/20 dark:bg-primary/20"
+                        quality={100}
                     />
                 </div>
                 <div className="mt-10 flex flex-col items-center">
