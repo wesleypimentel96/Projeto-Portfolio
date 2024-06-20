@@ -24,7 +24,7 @@ const Page = () => {
                     <Salutation salutation="Sobre mim" emoje="🤓" />
                     <h1 className="mt-5 font-semibold text-primary text-xl text-center md:text-2xl lg:text-3xl">Ranielly Wesley Pimentel Santos da Silva</h1>
                     <div className="mt-0 md:mt-5 px-2">
-                        <AboutMe emoje="👏" description="Hello world, pode me chamar apenas de Weley. Prazer!" />
+                        <AboutMe emoje="👏" description="Hello world, pode me chamar apenas de Wesley. Prazer!" />
                         <AboutMe emoje="🧑‍💻" description="+2 anos estudando aplicações com JavaScript, ReactJS, TypeScript e outras tecnologias." />
                         <AboutMe emoje="🎓" description="Graduado em Análise e Desenvolvimento de Sistemas pela UNCISAL, Universidade de Ciência e Saúde de Alagoas." />
                         <AboutMe emoje="💡" description="Interesses em desenvolvimento Front-end ou FullStack." />
