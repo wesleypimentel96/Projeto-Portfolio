@@ -18,11 +18,11 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 const Home = () => {
 
   const [typeEffect] = useTypewriter({
-    words: ['Wesley Pimentel', 'Front-end Developer', ],
+    words: ['Wesley Pimentel', 'Front-end Developer', 'Full-stack Developer'],
     loop: true,
     typeSpeed: 100,
     deleteSpeed: 40,
-    
+
 
 
   })
@@ -74,7 +74,7 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <Link href='public/wesley pimentel front-end.pdf'>
+        <Link href='https://drive.google.com/file/d/18CiI3Idj9qgwyy7KDCP6T1jFQ3mgfWuv/view' target="_blank">
           <Button variant='outline' className=" border-primary text-primary hover:bg-primary hover:text-white mb-5 transition-all duration-700">Baixar CV <HiDownload className="ml-2 text-lg" /></Button>
         </Link>
 
