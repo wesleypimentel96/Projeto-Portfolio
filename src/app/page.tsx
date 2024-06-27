@@ -78,7 +78,7 @@ const Home = () => {
           <Button variant='outline' className=" border-primary text-primary hover:bg-primary hover:text-white mb-5 transition-all duration-700">Baixar CV <HiDownload className="ml-2 text-lg" /></Button>
         </Link>
 
-        <WhatsAppButton phoneNumber={82987686824} />
+        <WhatsAppButton/>
       </div>
     </main>
   )

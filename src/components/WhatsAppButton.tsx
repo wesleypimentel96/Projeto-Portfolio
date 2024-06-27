@@ -2,14 +2,10 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { FaWhatsapp } from "react-icons/fa";
 
-type Props = {
-    phoneNumber: number;
-}
 
+export const WhatsAppButton = () => {
 
-export const WhatsAppButton = ({ phoneNumber }: Props) => {
-
-    const whastappUrl = `https://wa.me/${phoneNumber}`;
+    const whastappUrl = `https://wa.me/${process.env.NEXT_PUBLIC_ZAP}`;
 
     return (
         <Link href={whastappUrl} target="_blank" rel="noopener noreferrer">
