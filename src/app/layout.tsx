@@ -15,6 +15,9 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "Wesley Pimentel",
   description: "Portfólio Front-end",
+  icons: {
+    icon: '/portfolio-icon.png'
+  }
 };
 
 export default function RootLayout({
