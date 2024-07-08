@@ -9,7 +9,7 @@ export const Projects: projectsType[] = [
         description: 'Uma aplicação Blog, consumindo dados de uma Fake REST API JasonPlaceholder',
         technologies: ['React.JS', 'HTML5', 'CSS3', 'TailwindCSS', 'Vite', 'TypeScript'],
         imageProject: 'projeto01.png',
-        link: 'https://project-blog-18ouw0411-wesley-pimentels-projects.vercel.app/'
+        link: 'https://project-blog-orpin-ten.vercel.app/'
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ export const Projects: projectsType[] = [
         description: 'Loja de delivery, com carrinho de compras e integração com whatsapp',
         technologies: ['Next.JS', 'CSS3', 'HTML5', 'React.JS', 'TypeScript', 'Shadcn-UI'],
         imageProject: 'projeto03.jpg',
-        link: 'https://shadcn-delivery-odnz8xrjy-wesley-pimentels-projects.vercel.app/'
+        link: 'https://shadcn-delivery.vercel.app/'
     },
     {
         id: 4,
@@ -73,7 +73,7 @@ export const Projects: projectsType[] = [
         description: 'Uma aplicação de consultas meteorológicas, de cidades globais',
         technologies: ['JavaScript', 'CSS3', 'HTML5'],
         imageProject: 'projeto09.png',
-        link: 'https://projeto-clima-mqeul6qgu-wesley-pimentels-projects.vercel.app/'
+        link: 'https://projeto-clima-five.vercel.app/'
     },
 
 

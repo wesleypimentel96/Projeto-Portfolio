@@ -1,6 +1,6 @@
 import { Salutation } from "@/components/Salutation";
 import { AboutMe } from "@/components/AboutMe"
-import ImageAboutMe from '../../../public/img-aboutme.png';
+import ImageAboutMe from '../../../public/ImgAboutMe.png';
 import Image from "next/image";
 
 
@@ -12,7 +12,7 @@ const Page = () => {
     return (
         <main className=" h-[88vh] ">
             <section className=" pt-10 md:pt-8 flex flex-col items-center xl:flex-row  xl:justify-center xl:gap-40 xl:items-center h-full ">
-                <div>
+                <div className=" hover:scale-105 transition-all duration-1000">
                     <Image
                         src={ImageAboutMe}
                         alt="Image About Me"
