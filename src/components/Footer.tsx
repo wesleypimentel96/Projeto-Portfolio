@@ -13,8 +13,8 @@ export const Footer = () => {
             <div className=" container">
                 <Separator />
                 <footer className=" h-[5vh] flex items-center justify-between flex-col md:flex-row">
-                    <p className=" text-primary font-normal text-sm flex justify-center items-center p-1">
-                        Copyright &copy; Wesley Pimentel 2024
+                    <p className=" text-primary font-semibold text-sm flex justify-center items-center uppercase p-1">
+                        Copyright &copy;  <span className=" ml-1 mr-1 text-[#FF914D]">wp.coding</span> 2024
                     </p>
 
                     <div className="flex text-primary gap-3 text-lg p-1">
