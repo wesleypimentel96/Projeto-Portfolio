@@ -49,14 +49,14 @@ const Home = () => {
           </div>
 
           <div className=" bg-[#FF914D]  rounded-full p-2 cursor-pointer hover:opacity-90 hover:scale-110 transition-all duration-500">
-            <Link href='https://www.linkedin.com/in/wesleypimentel96/' target="_blank">
+            <Link href='https://www.instagram.com/wesleypimeentel?igsh=dWE3YnAyZ3EwYXBt' target="_blank">
               <FaInstagram className="text-white text-xl" />
             </Link>
 
           </div>
 
           <div className=" bg-[#FF914D] rounded-full p-2 cursor-pointer hover:opacity-90 hover:scale-110 transition-all duration-500">
-            <Link href='https://www.linkedin.com/in/wesleypimentel96/' target="_blank">
+            <Link href='mailto:wesley-pimentel@outlook.com' target="_blank">
               <SiMinutemailer className="text-white text-xl" />
             </Link>
 
@@ -78,7 +78,7 @@ const Home = () => {
           <Button variant='outline' className=" border-primary text-primary hover:bg-primary hover:text-white mb-5 transition-all duration-700">Baixar CV <HiDownload className="ml-2 text-lg" /></Button>
         </Link>
 
-        <WhatsAppButton/>
+        <WhatsAppButton />
       </div>
     </main>
   )
